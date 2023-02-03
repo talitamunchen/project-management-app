@@ -1,0 +1,16 @@
+.btn {
+  box-shadow:inset 0px 0px 0px 0px #bbb9b9c4;
+  background:linear-gradient(to bottom, #c2c1c1 5%, #dfdfdf 100%);
+  background-color: #222;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 2px;
+  border: none;
+}
+
+.btn:hover {
+  background:linear-gradient(to bottom, #dfdfdf 5%, #c2c1c1 100%);
+  color: #ffbb33;
+}
