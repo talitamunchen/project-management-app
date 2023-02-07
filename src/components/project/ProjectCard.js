@@ -18,7 +18,7 @@ function ProjectCard(props) {
         <span className={`${props.category.toLowerCase()}`}></span> {props.category}
       </p>
       <div className='project-card-action'>
-        <Link to="/">
+        <Link to={`/project/${props.id}`}>
           <BsPencil /> Edit
         </Link>
         <button onClick={remove}>
