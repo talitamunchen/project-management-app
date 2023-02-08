@@ -1,22 +1,33 @@
 {
   "projects": [
     {
-      "name": "Test",
-      "budget": "1000",
+      "name": "Lorem ipsum I",
+      "budget": "1200",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 200,
+      "services": [
+        {
+          "name": "Sit amet",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "cost": "200",
+          "id": "9cedae36-8ba6-42fb-aa36-c9bc63b161b9"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Lorem ipsum II",
+      "budget": "2000",
       "category": {
         "id": "2",
         "name": "Development"
       },
-      "cost": 12,
-      "services": [
-        {
-          "name": "a",
-          "cost": "12",
-          "description": "aa",
-          "id": "70e18599-b768-4c0f-a4f6-e5b64ab5b392"
-        }
-      ],
-      "id": 1
+      "cost": 0,
+      "services": [],
+      "id": 2
     }
   ],
   "categories": [
