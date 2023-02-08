@@ -1,6 +1,7 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
+  background-color: #222;
   padding: 1em;
 }
 
@@ -10,15 +11,16 @@
   align-items: center;
 }
 
-.iten {
+.item {
   margin-right: 1em;
 }
 
-.iten a {
-  color: #000;
+.item a {
+  color: #fff;
   text-decoration: none;
 }
 
-.iten a:hover {
+.item a:hover {
   color: #ffbb33;
+  text-decoration: none;
 }
