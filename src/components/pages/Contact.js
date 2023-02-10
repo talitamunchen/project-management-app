@@ -21,7 +21,6 @@ function Contact() {
         <p>Hours: 9am - 5pm (CST), Monday - Friday</p>
         <p>123-456-789</p>
       </div>
-      <hr />
     </div>
   )
 }
