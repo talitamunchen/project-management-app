@@ -53,7 +53,7 @@ function Projects() {
   }
 
   return (
-    <div className="project-container">
+    <div className="project-container" data-testid="projects">
       <div className="title-container">
         <h1>Projects</h1>
         <LinkButton to="/newproject" text="Create a project" />

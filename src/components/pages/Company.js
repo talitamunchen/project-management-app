@@ -2,7 +2,7 @@ import "./Info.css"
 
 function Company() {
   return (
-    <div className="info-container">
+    <div className="info-container" data-testid="company">
       <h1>Company</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ipsum

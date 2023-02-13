@@ -2,7 +2,7 @@ import "./Info.css"
 
 function Contact() {
   return (
-    <div className="info-container">
+    <div className="info-container" data-testid="contact">
       <h1>Contact Us</h1>
       <div className="mail">
         <h3>Snail mail</h3>
