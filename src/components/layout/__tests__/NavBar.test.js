@@ -7,31 +7,31 @@ const MockNav = () => {
   return (<BrowserRouter><NavBar /></BrowserRouter>)
 }
 
-test('Nav bar rendering', () => {
+it('Nav bar rendering', () => {
   render(<MockNav />)
   expect(screen.getByText(/about company/i)).toBeInTheDocument();
 })
 
 describe("Navigation", () => {
-  test('Home link', () => {
+  it('Home link', () => {
     render(<App />)
     fireEvent.click(screen.getByRole('link', { name: "Home"}));
     expect(screen.getByTestId("home")).toBeInTheDocument();
   })
   
-  test('Company link', () => {
+  it('Company link', () => {
     render(<App />)
     fireEvent.click(screen.getByRole('link', { name: "About company"}));
     expect(screen.getByTestId("company")).toBeInTheDocument();
   })
   
-  test('Projects link', () => {
+  it('Projects link', () => {
     render(<App />)
     fireEvent.click(screen.getByRole('link', { name: "Projects"}));
     expect(screen.getByTestId("projects")).toBeInTheDocument();
   })
   
-  test('Contact Us link', () => {
+  it('Contact Us link', () => {
     render(<App />)
     fireEvent.click(screen.getByRole('link', { name: "Contact Us"}));
     expect(screen.getByTestId("contact")).toBeInTheDocument();

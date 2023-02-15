@@ -5,9 +5,9 @@ function Footer() {
   return (
     <footer className="footer">
       <ul className="social-list">
-        <li className="iten"><FaFacebook/></li>
-        <li className="iten"><FaInstagram/></li>
-        <li className="iten"><FaLinkedin/></li>
+        <li><FaFacebook/></li>
+        <li><FaInstagram/></li>
+        <li><FaLinkedin/></li>
       </ul>
       <p className='copy-right'><span>Costs</span> &copy;</p>
     </footer>
