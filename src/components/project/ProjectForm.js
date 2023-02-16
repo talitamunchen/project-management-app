@@ -13,13 +13,13 @@ function ProjectForm(props) {
       method: "GET",
       headers: {
         "Content-type": "application/json",
-      },
+      }
     })
       .then((response) => response.json())
       .then((data) => {
         setCategories(data)
       })
-      .catch((err) => console.log(err))
+      .catch((err) => console.log("error", err))
   }, [])
 
   const submit = (e) => {

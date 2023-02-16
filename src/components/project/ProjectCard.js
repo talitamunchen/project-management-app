@@ -9,7 +9,7 @@ function ProjectCard(props) {
   }
 
   return (
-    <div className='project-card'>
+    <div className='project-card' data-testid="project-card">
       <h4>{props.name}</h4>
       <p>
         <span>Budget:</span> ${props.budget}
