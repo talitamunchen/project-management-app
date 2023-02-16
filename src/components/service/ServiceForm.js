@@ -17,7 +17,7 @@ function ServiceForm(props) {
   }
 
   return (
-    <form onSubmit={submit} className="form">
+    <form onSubmit={submit} className="form" data-testid="service-form">
       <Input
         type="text"
         text="Service name"

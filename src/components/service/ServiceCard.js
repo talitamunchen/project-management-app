@@ -8,7 +8,7 @@ function ServiceCard(props) {
   }
 
   return (
-    <div className="project-card">
+    <div className="project-card" data-testid="service-card">
       <h4>{props.name}</h4>
       <p>
         <span>Total value: </span> ${props.cost}
