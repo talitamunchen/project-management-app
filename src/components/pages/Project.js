@@ -134,12 +134,16 @@ function Project() {
   return (
     <>
       {project.name ? (
-        <div className="project-details">
+        <div className="project-details" data-testid="project-details">
           <Container customClass="column">
             {message && <Message type={type} msg={message} />}
             <div className="details-container">
               <h1>Projeto: {project.name}</h1>
-              <button onClick={toggleProjectForm} className="btn">
+              <button
+                onClick={toggleProjectForm}
+                className="btn"
+                data-testid="btn-form"
+              >
                 {!showProjectForm ? "Edit project" : "Close edition"}
               </button>
               {!showProjectForm ? (
@@ -167,7 +171,11 @@ function Project() {
             </div>
             <div className="service-form-container">
               <h2>Add a new service:</h2>
-              <button onClick={toggleServiceForm} className="btn">
+              <button
+                onClick={toggleServiceForm}
+                className="btn"
+                data-testid="btn-serv"
+              >
                 {!showServiceForm ? "Add service" : "Close"}
               </button>
               <div className="project-info">

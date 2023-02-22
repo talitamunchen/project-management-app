@@ -66,7 +66,7 @@ function ProjectForm(props) {
         handleOnChange={handleSelect}
         value={project.category ? project.category.id : ""}
       />
-      <Button text={props.btnText} />
+      <Button text={props.btnText} data-testid="btn-form"/>
     </form>
   )
 }
